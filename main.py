@@ -1,5 +1,4 @@
-nums = list(map(int, input('Введите числа: ').split()))
-k = int(input('Введите номер элемента: '))
+
 def kbig(nums,k):
     for i in range(len(nums)):
         lowest_value_index = i
